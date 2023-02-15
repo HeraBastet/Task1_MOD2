@@ -1,0 +1,98 @@
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+.navegador {
+    background-color: rgb(103, 91, 74);
+    padding: 10px 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-image: url(/img/bg.jpg);
+    color: rgb(200, 31, 85);
+    white-space: pre;
+}
+
+.banner a {
+    text-decoration: none;
+    color: rgb(200, 31, 85);
+    font-size: 50px;
+    margin: 0 1rem;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.check {
+    display: flex;
+    gap: 2rem;
+}
+
+.d-flex {
+    gap: 1rem;
+  }
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 3rem;
+}
+
+.btn {
+    color: white !important;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.card img{
+    margin-top: 0.5rem!important;
+    border-radius: 1rem;
+    padding: 0 1rem !important;
+
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.container {
+   margin: 0 3rem !important;
+   
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    margin: 0.5rem;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(140, 117, 84);
+}
+
+.fondo {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    border-top: 2rem;
+    background-color: rgb(140, 117, 84);    
+}
