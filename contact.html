@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A&Events</title>
     <link href="/css/styless.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/Logo_Amazing_Events.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preload" href="css/normalize.css" as="style">
@@ -14,31 +15,34 @@
   </head>
   <body>
     
-<nav class="navegador">
-    <div class="d-flex align-items-center justify-content-between">
-        <a class="navbar-brand" href="#">
-            <img src="/img/Logo Amazing Events.png" alt="Bootstrap" width="50%" height="50%">
-        </a>
-
-        <ul class="conteiner nav nav-pills">
+    <nav class="navegador">
+        <div>
+            <a class="navbar-brand" href="#">
+                <img src="/img/Logo_Amazing_Events.png" alt="Bootstrap">
+            </a>
+        </div>
+  
+        <div>
+          <ul class="conteiner nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link text-light" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link text-light" aria-current="page" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="/upcoming_events.html">Upcoming Events</a>
+              <a class="nav-link text-light" href="/upcoming_events.html">Upcoming Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="/past_events.html">Past Events</a>
+              <a class="nav-link text-light" href="/past_events.html">Past Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="/contact.html">Contact</a>
+              <a class="nav-link active" href="/contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="/stats.html">Stats</a>
+              <a class="nav-link text-light" href="/stats.html">Stats</a>
             </li>
-        </ul>
-    </div>
-</nav>
+          </ul>
+        </div>
+        
+    </nav>
 
 <div class="banner">
     <a href="past_events.html"><span>&lt;</span></a>
@@ -46,7 +50,71 @@
     <a href="stats.html"><span>></span> </a>
 </div>
 
+<main>
 
+  <div class="d-flex justify-content-center align-items-center pt-5">
+    <form class="formulario" >
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control  border border-dark-subtle" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control border border-dark-subtle" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="Message" class="form-label">Message</label>
+            <textarea class="form-control border border-dark-subtle" id="Message" rows="3"></textarea>
+        </div>
+        <div class="mb-3  d-flex justify-content-end">
+            <button type="button" class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Submit</button>
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <img src="./assets/giphy.webp" alt="Magic Word">
+                    </div>
+                    <div class="modal-body">
+                      Formulario de prueba...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Please</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </form>
+</div>
+
+  </div>
+
+</main>
+
+<footer>
+      
+    <ul class="nav col-md-4 list-unstyled">
+      <li class="ms-3"><a href="#">
+        <img src="/img/icons8-instagram-48.png" alt="Bootstrap" width="40"
+            height="40">
+        </a></li>
+      <li class="ms-3"><a href="#">
+        <img src="/img/icons8-twitter-48.png" alt="Bootstrap" width="40"
+            height="40">
+        </a></li>
+      <li class="ms-3"><a href="#">
+        <img src="/img/icons8-facebook-64.png" alt="Bootstrap" width="40"
+            height="40">
+        </a></li>
+    </ul>
+    
+    <div class="col-md-4 d-flex align-items-center justify-content-end">
+      <h2 class="mb-3 mb-md-0">COHORT</h2>
+    </div>
+
+  </footer>
 
   </body>
 </html>

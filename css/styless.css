@@ -3,6 +3,9 @@ body {
 }
 
 .navegador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(103, 91, 74);
     padding: 10px 20px;
 }
@@ -54,29 +57,8 @@ body {
     font-size: 1.5rem;
 }
 
-.card img{
-    margin-top: 0.5rem!important;
-    border-radius: 1rem;
-    padding: 0 1rem !important;
-
-}
-
-.card-text {
-    text-align: justify;
-}
-
 .container {
    margin: 0 3rem !important;
-   
-}
-
-.cards {
-    display: flex;
-    gap: 2rem;
-}
-
-.card {
-    margin: 0.5rem;
 }
 
 .contenedor {
@@ -85,8 +67,22 @@ body {
     justify-content: center;
 }
 
+.contenedor-events {
+    justify-content: center;
+    padding: auto;
+}
+
 footer {
     background-color: rgb(140, 117, 84);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+footer div {
+    margin-right: 5rem;
 }
 
 .fondo {
@@ -95,4 +91,109 @@ footer {
     align-self: center;
     border-top: 2rem;
     background-color: rgb(140, 117, 84);    
+}
+
+.cards {
+    padding-top: 2rem;
+    padding-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    padding-top: 0.5rem !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+small {
+    font-weight: bold;
+    
+}
+
+.title {
+    font-size: 1.3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.img-card {
+    padding: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+    width: 100%;
+    height: 180px;
+}
+
+.button {
+    position: relative;
+    left: 25.7rem;
+    width: 6rem;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17rem!important;
+}
+
+.formulario {
+    margin-bottom: 20.5rem !important;
+    flex-basis: 600px;
+}
+
+td {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border: solid 2px black !important;
+}
+
+th {
+    margin: 2rem;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    background-color: rgba(4, 32, 10, 0.2);
+    border-bottom: 2px solid black !important;
+    border: solid 2px black !important;
+}
+
+.navbar-brand img {
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width: 480px) {
+    .navegador {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .check {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-check {
+        margin-right: 0.5rem;
+    }
 }
