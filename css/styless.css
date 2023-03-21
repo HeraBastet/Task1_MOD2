@@ -21,6 +21,10 @@ body {
     white-space: pre;
 }
 
+#detailCard {
+    background-image: url(/img/bg.jpg);
+}
+
 .banner a {
     text-decoration: none;
     color: rgb(200, 31, 85);
@@ -91,6 +95,11 @@ footer div {
     align-self: center;
     border-top: 2rem;
     background-color: rgb(140, 117, 84);    
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
 }
 
 .cards {
