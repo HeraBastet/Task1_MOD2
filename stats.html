@@ -53,87 +53,39 @@
 
 <main>
 
-  <div class="table table-responsive">
-    <table>
-        <thead>
-            <tr>
-                <th colspan="3">Events statistics</th>
-            </tr>
-            <tr>
-                <td>Events with the highest percentage of attendance</td>
-                <td>Events with the lowest percentage of attendance</td>
-                <td>Event with larger capacity</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </thead>
+  <div class="d-flex table-responsive justify-content-center" id="tabla">
+    <table class="table table-bordered tabla-stats">
         <tbody>
             <tr>
-                <th colspan="3">Upcoming events statistics by category</th>
+                <th class="table-info text-center" colspan="3">Events statistics</th>
             </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
+            <tr class="text-center" id="events">
+                <th>Event with the highest percentage of attendance</th>
+                <th>Event with the lowest percentage of attendace</th>
+                <th>Event with larger capacity</th>
             </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th colspan="3">Past Events statistic by category</th>
-            </tr>
-            <tr>
-                <td>Categories</td>
-                <td>Revenues</td>
-                <td>Percentage of attendance</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tfoot>
 
+            <tr>
+                <th class="table-info  text-center" colspan="3">Upcoming  events statistics by category</th>
+            </tr>
+            <tr class="text-center" id="upcoming">
+                <th>Categories</th>
+                <th>Revenues</th>
+                <th>Percentage of attendace</th>
+            </tr>
+
+            <tr>
+                <th class="table-info text-center" colspan="3">Past events statistic by category</th>
+            </tr>
+            <tr class="text-center" id="past">
+                <th>Categories</th>
+                <th>Revenues</th>
+                <th>Percentage of attendace</th>
+            </tr>
+
+        </tbody>
     </table>
 </div>
-
 </main>
 
 <footer>
@@ -156,8 +108,10 @@
     <div class="col-md-4 d-flex align-items-center justify-content-end">
       <h2 class="mb-3 mb-md-0">COHORT</h2>
     </div>
-
   </footer>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/stats.js"></script>
 
 
   </body>

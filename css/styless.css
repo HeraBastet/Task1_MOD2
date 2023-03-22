@@ -149,9 +149,10 @@ small {
 }
 
 .table {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 17rem!important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 4rem !important;
+
 }
 
 .formulario {
@@ -160,18 +161,18 @@ small {
 }
 
 td {
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    margin: 0.5rem !important;
+    padding: 0.5rem !important;
+    border-right: 1px solid black !important;
+    border-bottom: 1px solid black !important;
     border: solid 2px black !important;
 }
 
 th {
-    margin: 2rem;
-    padding: 0.5rem 0;
-    font-size: 1.5rem;
-    background-color: rgba(4, 32, 10, 0.2);
+    margin: 2rem !important;
+    padding: 0.5rem 2rem !important;
+    font-size: 1.5rem !important;
+    background-color: rgba(4, 32, 10, 0.2) !important;
     border-bottom: 2px solid black !important;
     border: solid 2px black !important;
 }
